@@ -1,9 +1,11 @@
 import { galleryItems } from './gallery-items.js';
+import * as basicLightbox from 'basiclightbox'
 // Change code below this line
 
 const galleryList = document.querySelector(".gallery")
 //console.log(galleryList)
-
+const basicLightbox = require('basiclightbox')
+console.log(basicLightbox)
 const createGallery = ({preview,original,description}) => 
 `<div class="gallery__item">
 <a class="gallery__link" 
