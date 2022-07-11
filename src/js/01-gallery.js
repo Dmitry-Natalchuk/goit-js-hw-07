@@ -1,10 +1,8 @@
 import { galleryItems } from './gallery-items.js';
 // Change code below this line
 
-//console.log(galleryItems);
-
 const galleryList = document.querySelector(".gallery")
-//console.log(gallery)
+//console.log(galleryList)
 
 const createGallery = ({preview,original,description}) => 
 `<div class="gallery__item">
@@ -24,7 +22,6 @@ const galleryReduce = galleryItems
 galleryList.insertAdjacentHTML("afterbegin",galleryReduce);
 
 const divGalleryItems = galleryList.querySelector(".gallery__item")
-//console.log(divGalleryItems)
 //console.log(divGalleryItems.nodeName)
 
 function eventClickGallery (event) {
