@@ -32,3 +32,5 @@ function createGallery(images) {
    // disableScroll : false,
     
   });
+
+  //gallery.addEventListener("click",clickEvent);
